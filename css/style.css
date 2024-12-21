@@ -1,0 +1,104 @@
+body{
+      margin: 0px;
+      background: #bdcbe5;
+      font-family: Arial, Helvetica, sans-serif;
+}
+header{
+      width: 99%;
+      height: 150px;
+}
+header > nav{
+      width: 85%;
+      height: 60px;
+      margin: auto;
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.1);
+      border: none;
+      background: white;
+      padding: 0px;
+      clear: both;
+      font-size: 1.2em;
+}
+ul{
+      list-style: none;
+}
+header > nav > ul > li{
+      color: black;
+      float: left;
+}
+header > nav > ul > li > a{
+      color: rgb(76, 70, 70);
+      display: block;
+      padding: 21px;
+      border-right: 4px solid #d9d9d9;
+}
+header > nav > ul > li > .pa{
+      border-right: none;
+}
+header > h1{
+      text-align: center;
+      color:black;
+      margin-top: 40px;
+      text-shadow: 0px 2px 2px white;
+}
+.menu > li{
+      position: relative;
+}
+.menu > li:hover > a{
+      background: rgb(163, 149, 149);
+}
+.submenu > li:hover > a{
+      background: rgb(163, 149, 149);
+}
+.menu > li:hover .submenu{
+      display: block;
+}
+.submenu{
+      width: 200px;
+      display: none;
+      background: #e4e6e8;
+      position: absolute;
+      top: 65px;
+}
+.submenu > li > a{
+      display: block;
+      list-style: none;
+      padding: 10px;
+      border-bottom: 2px solid gray;
+}
+.main{
+      width: 85%;
+      height: 1000px;
+}
+ div{
+      width: 85%;
+      margin: auto;
+}
+footer{
+      width: 85%;
+      height: 200px;
+      margin: auto;
+      text-align: center;
+      color: green;
+     font-size: 1.5em;
+      
+}
+.allpading{
+      padding: 0px;
+}
+.active{
+      color: rgb(9, 9, 179)
+}
+.right{
+      float: right;
+}
+.left{
+      float: left;
+}
+.m1{
+      margin: 0px;
+}
+a{
+      text-decoration: none;
+}
